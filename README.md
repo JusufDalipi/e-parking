@@ -1,102 +1,102 @@
-# 🅿️ E-Parking — Sistem Menaxhimi Parkingu
+# 🅿️ E-Parking — Parking Management System
 
-Sistem web për menaxhimin e parkingut, ndërtuar me **PHP**, **MySQL**, **JavaScript** dhe **CSS**. Mbështet role të shumta, rezervime vendesh, gjurmim hyrje-daljeje, pagesa dhe raporte XML.
+A web-based parking management system built with **PHP**, **MySQL**, **JavaScript**, and **CSS**. Supports multiple user roles, slot reservations, vehicle entry/exit tracking, payments, and XML reporting.
 
 ---
 
-## 🚀 Teknologjitë
+## 🚀 Tech Stack
 
-| Teknologjia | Përdorimi |
+| Technology | Usage |
 |---|---|
-| PHP 8+ | Backend & logika e serverit |
-| MySQL | Databaza relacionale |
-| JavaScript | Interaktivitet & animacione |
-| CSS | Stilizim & dizajn responsive |
-| XAMPP | Server lokal për zhvillim |
-| XML | Eksportimi i të dhënave |
-| JWT | Autentifikim i sigurt |
+| PHP 8+ | Backend & server-side logic |
+| MySQL | Relational database |
+| JavaScript | Interactivity & animations |
+| CSS | Styling & responsive design |
+| XAMPP | Local development server |
+| XML | Data export |
+| JWT | Secure authentication |
 
 ---
 
-## 👥 Rolet e Sistemit
+## 👥 User Roles
 
-| Roli | Përshkrimi |
+| Role | Description |
 |---|---|
-| 🔑 **Admin** | Kontrollon gjithçka — përdoruesit, vendet, pagesat, raportet |
-| 🛡️ **Rojtar** | Monitoron hyrje-dalje dhe statusin e vendeve në kohë reale |
-| 🚗 **Shofer** | Bën rezervime dhe shikon pagesat e tij |
+| 🔑 **Admin** | Full control — users, slots, payments, reports |
+| 🛡️ **Guard** | Monitors vehicle entries/exits and slot status in real time |
+| 🚗 **Driver** | Makes reservations and views personal payments |
 
 ---
 
-## ✨ Funksionalitetet
+## ✨ Features
 
-- 📊 **Dashboard interaktiv** me statistika live dhe animacione
-- 🅿️ **Menaxhim vendesh** — shto, edito, fshi vende parkingu
-- 📋 **Rezervime** — shoferët rezervojnë vende specifike
-- 🚗 **Hyrje-Dalje** — rojtarët regjistrojnë hyrjet dhe daljet e mjeteve
-- 💳 **Pagesa** — gjurmim i pagesave me histori të plotë
-- 📦 **Abonime** — planet e abonimit për shoferë
-- 👤 **Menaxhim Përdoruesish** — CRUD i plotë me role dhe status
-- 🔐 **Regjistrim & Login** — autentifikim me sesione dhe JWT
-- 📋 **Logje login-i** — histori e plotë e hyrjeve në sistem
-- 📤 **XML Eksport** — eksportim i pagesave në format XML
-- ⚠️ **Njoftime** — admin njoftohet për fjalëkalime të harruara
+- 📊 **Interactive Dashboard** with live statistics and animated counters
+- 🅿️ **Slot Management** — add, edit, and delete parking slots
+- 📋 **Reservations** — drivers reserve specific parking slots
+- 🚗 **Entry / Exit Tracking** — guards register vehicle arrivals and departures
+- 💳 **Payments** — full payment tracking with history
+- 📦 **Subscriptions** — subscription plans for drivers
+- 👤 **User Management** — full CRUD with roles and status control
+- 🔐 **Register & Login** — session-based authentication with JWT support
+- 📋 **Login Logs** — complete login history for all users
+- 📤 **XML Export** — export payment data in XML format
+- ⚠️ **Notifications** — admin is alerted for pending password reset requests
 
 ---
 
-## 📂 Struktura e Projektit
+## 📂 Project Structure
 
 ```
 e-parking/
 ├── php/
-│   ├── config.php          # Konfigurimi i databazës
-│   ├── auth.php            # Autentifikimi & autorizimi
-│   ├── header.php          # Navigacioni kryesor
+│   ├── config.php          # Database configuration
+│   ├── auth.php            # Authentication & authorization
+│   ├── header.php          # Main navigation
 │   ├── jwt.php             # JWT helper
 │   └── ...
-├── css/                    # Stilet CSS
-├── js/                     # Skriptet JavaScript
-├── assets/                 # Ikonat dhe imazhet
-├── sql/                    # Skema e databazës
-├── xml/                    # Eksporti XML
-├── index.php               # Dashboard kryesor
-├── login.php               # Faqja e hyrjes
-├── users.php               # Menaxhimi i përdoruesve
-├── slots.php               # Menaxhimi i vendeve
-├── reservations.php        # Rezervimet
-├── entries.php             # Hyrje-Dalje mjetesh
-├── payments.php            # Pagesat
-├── subscriptions.php       # Abonimi
-├── roles.php               # Rolet e sistemit
-└── login_logs.php          # Logjet e hyrjeve
+├── css/                    # CSS stylesheets
+├── js/                     # JavaScript files
+├── assets/                 # Icons and images
+├── sql/                    # Database schema
+├── xml/                    # XML export
+├── index.php               # Main dashboard
+├── login.php               # Login page
+├── users.php               # User management
+├── slots.php               # Slot management
+├── reservations.php        # Reservations
+├── entries.php             # Vehicle entry/exit
+├── payments.php            # Payments
+├── subscriptions.php       # Subscriptions
+├── roles.php               # System roles
+└── login_logs.php          # Login history
 ```
 
 ---
 
-## ⚙️ Instalimi Lokal
+## ⚙️ Local Installation
 
-### Kërkesat
+### Requirements
 - [XAMPP](https://www.apachefriends.org/) (PHP 8+ & MySQL)
-- Shfletues modern (Chrome, Firefox, Edge)
+- A modern browser (Chrome, Firefox, Edge)
 
-### Hapat
+### Steps
 
-**1. Klono repo-n:**
+**1. Clone the repository:**
 ```bash
 git clone https://github.com/JusufDalipi/e-parking.git
 cd e-parking
 ```
 
-**2. Vendos projektin:**
-Kopjo folderin në `c:\xampp\htdocs\`
+**2. Place the project:**
+Copy the folder to `c:\xampp\htdocs\`
 
-**3. Importo databazën:**
-- Hap [phpMyAdmin](http://localhost/phpmyadmin)
-- Krijo databazë të re: `parking_management`
-- Importo skedarin: `sql/parking_management.sql`
+**3. Import the database:**
+- Open [phpMyAdmin](http://localhost/phpmyadmin)
+- Create a new database: `parking_management`
+- Import the file: `sql/parking_management.sql`
 
-**4. Konfiguro lidhjen:**
-Edito skedarin `php/config.php`:
+**4. Configure the connection:**
+Edit `php/config.php`:
 ```php
 $host   = 'localhost';
 $dbUser = 'root';
@@ -104,52 +104,45 @@ $dbPass = '';
 $dbName = 'parking_management';
 ```
 
-**5. Hap aplikacionin:**
+**5. Open the application:**
 ```
 http://localhost/e-parking/
 ```
 
 ---
 
-## 🔐 Kredencialet Default
+## 🗄️ Database Tables
 
-| Roli | Email | Fjalëkalimi |
-|---|---|---|
-| Admin | admin@parking.com | *(vendos gjatë setup)* |
+| Table | Description |
+|---|---|
+| `users` | All system users |
+| `roles` / `user_roles` | Role definitions and assignments |
+| `parking_slots` | Parking slot records |
+| `reservations` | Driver reservations |
+| `vehicle_entries` | Vehicle entry/exit logs |
+| `payments` | Payment records |
+| `subscriptions` | Driver subscription plans |
+| `login_logs` | Login history |
+| `password_resets` | Password reset requests |
 
 ---
 
-## 📤 Eksport XML
+## 📤 XML Export
 
-Pagesat mund të eksportohen në format XML duke shkuar te:
+Payment data can be exported in XML format at:
 ```
 /xml/export_payments.php
 ```
 
 ---
 
-## 🗄️ Databaza
-
-Projekti përdor **MySQL** me tabelat kryesore:
-- `users` — Përdoruesit
-- `roles` / `user_roles` — Rolet
-- `parking_slots` — Vendet e parkingut
-- `reservations` — Rezervimet
-- `vehicle_entries` — Hyrje-dalje mjetesh
-- `payments` — Pagesat
-- `subscriptions` — Abonimi
-- `login_logs` — Logjet e hyrjeve
-- `password_resets` — Kërkesat për reset fjalëkalimi
-
----
-
-## 👨‍💻 Autori
+## 👨‍💻 Author
 
 **Jusuf Dalipi**  
 🔗 [github.com/JusufDalipi](https://github.com/JusufDalipi)
 
 ---
 
-## 📄 Licenca
+## 📄 License
 
-Ky projekt është ndërtuar për qëllime akademike.
+This project was built for academic purposes.
