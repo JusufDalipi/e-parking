@@ -1,0 +1,141 @@
+<slots>
+    <slot>
+        <slot_code>1</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>2</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>3</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>4</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>5</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>6</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>7</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>8</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>9</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>10</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>11</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>12</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>13</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>14</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>15</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>16</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>17</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>18</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>19</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+
+    <slot>
+        <slot_code>20</slot_code>
+        <floor_level>3</floor_level>
+        <slot_type>VIP</slot_type>
+        <status>inactive</status>
+    </slot>
+</slots>

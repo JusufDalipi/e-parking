@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="guardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#guardGrad)" />
+  <!-- User avatar icon outline style -->
+  <circle cx="32" cy="24" r="10" stroke="#ffffff" stroke-width="3" fill="#ffffff" fill-opacity="0.1" />
+  <path d="M14 52 C14 43.16 22.06 36 32 36 C41.94 36 50 43.16 50 52" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="#ffffff" fill-opacity="0.1" />
+  <!-- Security Shield badge -->
+  <path d="M32 37 L37 39 C37 45 32 49 32 49 C32 49 27 45 27 39 Z" fill="#ffffff" />
+  <path d="M32 39 L35 40.5 C35 44.5 32 47.5 32 47.5 C32 47.5 29 44.5 29 40.5 Z" fill="#b45309" />
+</svg>

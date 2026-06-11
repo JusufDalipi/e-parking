@@ -1,0 +1,283 @@
+<slots>
+
+    <!-- Kati 1 : 1 - 20 -->
+    <slot>
+        <slot_code>1</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>2</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>3</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>4</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>5</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>6</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>7</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>8</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>9</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>10</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>11</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+    <slot>
+        <slot_code>12</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>13</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>14</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>15</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>16</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>17</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>18</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>19</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>20</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <!-- Kati 2 : 1-a - 20-a -->
+    <slot>
+        <slot_code>1-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>2-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>3-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>4-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+    <slot>
+        <slot_code>5-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>6-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>7-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>8-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>9-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>10-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>11-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>12-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>13-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>14-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>15-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>16-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>17-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>18-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>19-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+    <slot>
+        <slot_code>20-a</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+
+</slots>

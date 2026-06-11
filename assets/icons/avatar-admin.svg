@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="adminGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#adminGrad)" />
+  <!-- User avatar icon outline style -->
+  <circle cx="32" cy="24" r="10" stroke="#ffffff" stroke-width="3" fill="#ffffff" fill-opacity="0.1" />
+  <path d="M14 52 C14 43.16 22.06 36 32 36 C41.94 36 50 43.16 50 52" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="#ffffff" fill-opacity="0.1" />
+  <!-- Admin tie/badge detail -->
+  <path d="M30 40 L34 40 L36 49 L32 53 L28 49 Z" fill="#f59e0b" />
+  <circle cx="32" cy="39" r="2" fill="#ffffff" />
+</svg>

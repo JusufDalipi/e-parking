@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slots>
+    <slot>
+        <slot_code>A-101</slot_code>
+        <floor_level>1</floor_level>
+        <slot_type>standard</slot_type>
+        <status>active</status>
+    </slot>
+    <slot>
+        <slot_code>B-205</slot_code>
+        <floor_level>2</floor_level>
+        <slot_type>vip</slot_type>
+        <status>active</status>
+    </slot>
+</slots>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="driverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#driverGrad)" />
+  <!-- User avatar icon outline style -->
+  <circle cx="32" cy="24" r="10" stroke="#ffffff" stroke-width="3" fill="#ffffff" fill-opacity="0.1" />
+  <path d="M14 52 C14 43.16 22.06 36 32 36 C41.94 36 50 43.16 50 52" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="#ffffff" fill-opacity="0.1" />
+  <!-- Car Steering Wheel detail -->
+  <circle cx="32" cy="45" r="5" stroke="#ffffff" stroke-width="2" />
+  <line x1="32" y1="40" x2="32" y2="45" stroke="#ffffff" stroke-width="2" />
+  <line x1="27" y1="45" x2="32" y2="45" stroke="#ffffff" stroke-width="2" />
+  <line x1="37" y1="45" x2="32" y2="45" stroke="#ffffff" stroke-width="2" />
+</svg>
